@@ -19,22 +19,29 @@
 
 				<!-- Header -->
 					<header id="header">
-						<script type="text/javascript">
-                                                 document.write('JUDY ROSALES')
+                                                <script type="text/javascript">
+                                                window.onload=function(){alert('Bienvenido a mi Proyecto');}
+                                                }
                                                 </script>
-                                                <h1></h1>
-                                                <h1></h1>
-                                                <h1></h1>
-                                                <h1></h1>
-                                                <h1></h1>
+						<script type="text/javascript">
+                                                window.setInterval (BlinkIt, 500);
+                                                var color = "purple";
+                                                function BlinkIt () {
+                                                var blink = document.getElementById ("blink");
+                                                color = (color == "#FE3AC3")? "purple" : "#FE3AC3"; 
+                                                blink.style.color = color;
+                                                blink.style.fontSize='32px';}
+                                                </script>
+                                                <div id="blink">Judy' Rosales</div>
+                                                
 
-                                                <P>PROGRAMACION WEB2 "PROYECTO LIBRE"</P>
-						<p></p>
+                                               
+						<p>PROGRAMACION WEB2 "PROYECTO LIBRE"</p>
 						<ul class="icons">
 							<li><a href="https://www.facebook.com/judy.rosales.75" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
 							<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
 							<li><a href="https://github.com/aleddan" class="icon fa-github"><span class="label">Github</span></a></li>
-							<li><a href="file:///C:/repo/repositorio-18/lens/ejemplos-graficos-chart.js.html"><span class="label">Grafico</span></a></li>
+							<li><a href="file:///C:/repo/repositorio-18/lens/ejemplos-graficos-chart.js.html" ><span class="label">Grafico</span></a></li>
 						</ul>
 					</header>
 
